@@ -44,7 +44,7 @@ void main() {
   Workmanager().registerPeriodicTask(
     "task-identifier",
     "sendlocation",
-    frequency: Duration(minutes: 16),
+    frequency: Duration(minutes: 15),
   );
   runApp(MyApp());
 }
